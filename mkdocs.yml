@@ -1,0 +1,40 @@
+site_name: Muslim Hyperjump Project Hub
+site_description: Engineering projects, documentation, and experiments
+site_author: Muslim
+
+theme:
+  name: material
+  language: en
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.share
+
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+    - scheme: slate
+      primary: custom
+      accent: custom
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+
+markdown_extensions:
+  - attr_list
