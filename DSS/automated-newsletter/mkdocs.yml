@@ -1,0 +1,18 @@
+site_name: DSS Automated Newsletter
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Executive:
+      - Executive Brief: executive/executive-brief.md
+      - Value & Impact: executive/value-impact.md
+      - Roadmap: executive/roadmap.md
+  - Product:
+      - Product Specification: product/product-spec.md
+      - Use Cases: product/use-cases.md
+      - Success Metrics: product/success-metrics.md
+  - Concepts:
+      - Glossary: concepts/glossary.md
+      - Domains & Scope: concepts/domains-and-scope.md
